@@ -1,0 +1,96 @@
+html {
+    font-size: 100%;
+    background: #fafafa;
+    --page-spacing: 2rem;
+}
+
+body {
+    font-family:  ui-monospace;
+    
+}
+
+article {
+    margin: 2rem;
+}
+
+
+img {
+    display: block;
+   max-width: 75ch;
+   margin-left: calc(50% - 30ch);
+   margin-top: 1.6rem;
+   margin-bottom: 1.6rem;
+}
+/* img.back {
+    display: outside ;
+    max-width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+a {
+    color: #ab6008;
+    text-decoration: none;
+    /* border-bottom: 1px solid #ab6008; */
+}
+
+h1 {
+    font-size: 150%;
+}
+
+p {
+    font-size: 1rem;
+    /* max-width: 60ch; */
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    margin: 1.6rem auto;
+    font-weight: normal;
+    color: #333;
+    font-variant-ligatures: contextual; 
+}
+
+
+@media only screen and (min-width: 768px) {
+    p {
+        font-size: 125%rem;
+        max-width: 60ch;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        margin: .8em auto;
+        color: #555;
+        font-variant-ligatures: contextual; 
+        text-rendering: optimizeLegibility;
+
+    }
+}
+p:first-of-type {
+    margin-top: 3.2rem;
+}
+
+.opening {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* p:first-of-type {
+    font-size: 150%;
+    margin-top: 5rem;
+    line-height: 1.5;
+    max-width: 60ch;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: .6em;
+
+
+    background-image: url('../images/02.webp');
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased; 
+}  */
